@@ -1,0 +1,44 @@
+# ================================================== 
+# SECTION 1 - ESSENTIAL FOR UNREAL ENGINE 
+# ================================================== 
+# Unreal Engine assets (Blueprints, materials, textures, meshes, etc.) 
+*.uasset filter=lfs diff=lfs merge=lfs -text 
+# Unreal Engine maps and levels 
+*.umap filter=lfs diff=lfs merge=lfs -text 
+# ================================================== 
+# SECTION 2 - RECOMMENDED FILE TYPES 
+# ================================================== 
+# 3D models and animations (large binary files) 
+*.fbx filter=lfs diff=lfs merge=lfs -text 
+*.blend filter=lfs diff=lfs merge=lfs -text 
+*.glb filter=lfs diff=lfs merge=lfs -text 
+*.max filter=lfs diff=lfs merge=lfs -text 
+*.mb filter=lfs diff=lfs merge=lfs -text 
+# Photoshop and illustration files (layers and high-resolution images) 
+*.psd filter=lfs diff=lfs merge=lfs -text 
+*.psb filter=lfs diff=lfs merge=lfs -text 
+*.kra filter=lfs diff=lfs merge=lfs -text 
+*.clip filter=lfs diff=lfs merge=lfs -text 
+# Substance 3D files (complex materials and texture projects) 
+*.spp filter=lfs diff=lfs merge=lfs -text 
+*.sbsar filter=lfs diff=lfs merge=lfs -text 
+# Textures and images (potentially large image files) 
+*.png filter=lfs diff=lfs merge=lfs -text 
+*.jpg filter=lfs diff=lfs merge=lfs -text 
+*.jpeg filter=lfs diff=lfs merge=lfs -text 
+*.tga filter=lfs diff=lfs merge=lfs -text 
+*.tif filter=lfs diff=lfs merge=lfs -text 
+*.tiff filter=lfs diff=lfs merge=lfs -text 
+*.exr filter=lfs diff=lfs merge=lfs -text 
+*.hdr filter=lfs diff=lfs merge=lfs -text 
+*.dds filter=lfs diff=lfs merge=lfs -text 
+# Audio files (music and sound effects) 
+*.wav filter=lfs diff=lfs merge=lfs -text 
+*.mp3 filter=lfs diff=lfs merge=lfs -text 
+*.ogg filter=lfs diff=lfs merge=lfs -text 
+*.flac filter=lfs diff=lfs merge=lfs -text 
+# Video files (cinematics and video references) 
+*.mp4 filter=lfs diff=lfs merge=lfs -text 
+*.mov filter=lfs diff=lfs merge=lfs -text 
+*.avi filter=lfs diff=lfs merge=lfs -text 
+*.webm filter=lfs diff=lfs merge=lfs -text
